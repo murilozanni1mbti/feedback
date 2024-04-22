@@ -14,6 +14,7 @@
     --white: #FFF;
     --very-dark-blue: #131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    --lighter-card-color: #1f2530; /* Nova variável para uma cor mais clara */
 }
 
 body {
@@ -26,10 +27,12 @@ body {
 }
 
 .card {
-    background-color: var(--black-gradient);
-    max-width: 412px;
-    padding: 32px;
-    border-radius: 30px;
+
+        background-color: var(--lighter-card-color); /* Usando a nova variável */
+        max-width: 412px;
+        padding: 32px;
+        border-radius: 30px;
+
 }
 .estrela {
     background-color: var(--dark-blue);
