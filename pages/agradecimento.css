@@ -27,7 +27,7 @@ body {
 }
 
 .card {
-
+    text-align: center;
     background-color: var(--lighter-card-color); /* Usando a nova variável */
     max-width: 412px;
     padding: 32px;
@@ -61,5 +61,5 @@ body {
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 24px;
+   
 }
