@@ -38,7 +38,7 @@ body {
     margin-bottom: 32px;
 }
 
-.paragrafo_nota {
+.card .paragrafo_nota {
     padding: 4px 18px;
     background-color: var(--dark-blue);
     width: fit-content;
