@@ -14,7 +14,7 @@
     --white: #FFF;
     --very-dark-blue: #131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
-    --lighter-card-color: #1f2530; /* Nova variável para uma cor mais clara */
+
 }
 
 body {
@@ -28,9 +28,9 @@ body {
 
 .card {
     text-align: center;
-    background-color: var(--lighter-card-color); /* Usando a nova variável */
+    background-color: var(--black-gradient); 
     max-width: 412px;
-    padding: 32px;
+    padding: 45px 32px;
     border-radius: 30px;
 }
 
@@ -54,6 +54,7 @@ body {
 .card h1 {
     color: var(--white);
     font-size: 28px;
+    line-height: 24px;
     margin-bottom: 15px;
 }
 
